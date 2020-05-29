@@ -13,14 +13,14 @@ header{
 }
 
 header .main{
-	font-size: 2.1em;
+	font-size: 1.65em;
 	font-weight: 200;
 	color: hsl(234, 12%, 34%);
 	margin: 0;
 }
 
 header .sub{
-	font-size: 2.1em;
+	font-size: 1.65em;
 	font-weight: 600;
 	color: hsl(234, 12%, 34%);
 	margin: 0;
@@ -89,6 +89,14 @@ header p{
 @media screen and (min-width: 1109px){
 	body{
 		margin:20px 0px;
+	}
+
+	header .main{
+		font-size: 2.1em;
+	}
+
+	header .sub{
+		font-size: 2.1em;
 	}
 
 	.container{
